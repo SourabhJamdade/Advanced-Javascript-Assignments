@@ -6,7 +6,6 @@
 async function sumPromises(p1, p2) {
     const res = await Promise.all([p1, p2]);
     return (res[0] + res[1]);
-
 }
 
 module.exports = sumPromises;
